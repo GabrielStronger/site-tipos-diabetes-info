@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cores */
+.bg-light-green {
+    background-color: #e6f4ea;
+}
+
+.bg-dark-green {
+    background-color: #005f33;
+}
+
+.text-dark-green {
+    color: #005f33;
+}
+
+/* Estilo do index */
+.list-group-item {
+    border: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 15px;
+    text-align: center;
+}
+
+.list-group-item:hover {
+    background-color: #004d29;
+    color: #ffffff;
+}
+
+.hover-green:hover {
+    background-color: #004d29;
+    color: #ffffff;
+}
+/* Fundo verde suave */
+.bg-light-green {
+    background-color: #d6f5d6; /* Verde suave */
+}
+
+/* Texto verde escuro */
+.text-dark-green {
+    color: #2e7d32; /* Verde escuro */
+}
+
+/* Botão branco no estado normal */
+.bg-dark-green {
+    background-color: #ffffff; /* Branco */
+    color: #ffffff; /* Texto verde escuro */
+    border: 1px solid #2e7d32; /* Borda verde escuro */
+    
+    
+}
+
+/* Hover do botão para verde escuro */
+.bg-dark-green:hover {
+    background-color: #2e7d32; /* Verde escuro */
+    color: #ffffff; /* Texto branco */
+}
+
+
+/* Logo */
+.logo {
+    max-width: 200px; /* Tamanho máximo da logo */
+    margin-bottom: 20px; /* Espaço abaixo da logo */
+}

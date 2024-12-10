@@ -1,0 +1,31 @@
+/* Background colors */
+.bg-light-green {
+    background-color: #e8f5e9; /* Verde claro */
+}
+
+.bg-dark-green {
+    background-color: #2e7d32; /* Verde escuro */
+}
+
+/* Text colors */
+.text-dark-green {
+    color: #2e7d32; /* Verde escuro */
+}
+
+/* Hover effect for list items */
+.hover-green:hover {
+    background-color: #2e7d32 !important; /* Verde escuro */
+    color: #ffffff !important; /* Texto branco */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Logo styling */
+.logo {
+    max-width: 150px;
+}
+
+/* Footer text style */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}

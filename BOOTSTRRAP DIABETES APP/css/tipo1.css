@@ -1,0 +1,31 @@
+/* Background colors */
+.bg-light-green {
+    background-color: #e7f6e7; /* Verde claro */
+}
+
+.bg-dark-green {
+    background-color: #4caf50; /* Verde escuro */
+}
+
+/* Text colors */
+.text-dark-green {
+    color: #4caf50; /* Verde escuro */
+}
+
+/* Card styling */
+.card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
